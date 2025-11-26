@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/23"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="labapp.WelcomeController"
+            prefWidth="360" prefHeight="220">
+    <center>
+        <VBox alignment="CENTER" spacing="12">
+            <children>
+                <Label fx:id="welcomeLabel" text="Welcome"/>
+                <Button text="logout / close" onAction="#onClose"/>
+            </children>
+            <padding><Insets top="20"/></padding>
+        </VBox>
+    </center>
+</BorderPane>

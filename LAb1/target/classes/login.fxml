@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="labapp.LoginController"
+            prefWidth="360" prefHeight="220">
+    <children>
+        <VBox spacing="10" AnchorPane.topAnchor="20" AnchorPane.leftAnchor="20"
+              AnchorPane.rightAnchor="20" AnchorPane.bottomAnchor="20">
+            <children>
+                <TextField fx:id="username" promptText="username"/>
+                <PasswordField fx:id="password" promptText="password"/>
+                <Button fx:id="loginBtn" text="login" onAction="#onLogin"/>
+                <Label fx:id="errorLabel" textFill="red" />
+            </children>
+            <padding><Insets top="10" left="10" right="10" bottom="10"/></padding>
+        </VBox>
+    </children>
+</AnchorPane>

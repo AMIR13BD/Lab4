@@ -1,0 +1,9 @@
+labapp\BlockWatcher.class
+labapp\LoginState.class
+labapp\UsersRepo.class
+labapp\AttemptsUpdater.class
+labapp\User.class
+labapp\WelcomeController.class
+labapp\MainApp.class
+labapp\LoginController.class
+labapp\UsersApp.class
